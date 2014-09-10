@@ -11,7 +11,7 @@ BEGIN
 	@EXPORT = qw/counter/;
 	
 	$Pointy::Counter::AUTHORITY = 'cpan:TOBYINK';
-	$Pointy::Counter::VERSION   = '0.001';
+	$Pointy::Counter::VERSION   = '0.002';
 	
 	eval { require Object::AUTHORITY and import Object::AUTHORITY };
 }
