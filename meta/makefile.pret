@@ -1,0 +1,9 @@
+@prefix deps:  <http://ontologi.es/doap-deps#> .
+
+<http://purl.org/NET/cpan-uri/dist/Pointy-Counter/project>
+	deps:runtime-recommendation      [ deps:on "Object::AUTHORITY"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "Exporter"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "strict"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "overload"^^deps:CpanId ];
+	deps:test-requirement            [ deps:on "Test::More 0.61"^^deps:CpanId ].
+
